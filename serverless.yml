@@ -1,4 +1,4 @@
-service: servtweet-crud
+service: aws-crud
 
 provider:
   name: aws
