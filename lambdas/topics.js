@@ -35,7 +35,7 @@ const getTopics = async (event) => {
       response.body = JSON.stringify({
           status: "success",
           result: data.length,
-          newdata
+          data: newdata
       });
   
   } catch (e) {
