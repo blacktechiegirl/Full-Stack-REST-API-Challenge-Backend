@@ -121,7 +121,7 @@ functions:
           - "dynamodb:Scan"
         Resource: !GetAtt PostsTable.Arn
 
-    getTopics:
+  getTopics:
     handler: lambdas/topics.getTopics
     name: get-topic
     memorySize: 128 # mb
