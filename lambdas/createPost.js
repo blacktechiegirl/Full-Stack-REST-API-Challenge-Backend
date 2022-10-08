@@ -22,6 +22,7 @@ const createPost = async (event) => {
       userName: requestJSON.username,
       date: new Date().getTime(),
       content: requestJSON.content,
+      topics: requestJSON.topics,
       comments: 0,
     };
     const params = {
